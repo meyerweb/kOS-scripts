@@ -1,0 +1,48 @@
+5.5 minutes to space
+
+3.25 minutes/degrees before Minmus orbit (6deg) crossing
+off by ~  -0.3 degrees
+
+3.1 minutes/degrees before Minmus orbit (6deg) crossing
+off by ~  -0.15 degrees
+
+3 minutes/degrees before Minmus orbit (6deg) crossing
+off by ~ -0.05 degrees
+
+2.5 minutes/degrees before Minmus orbit (6deg) crossing
+off by ~ +0.4 degrees
+
+2 minutes/degrees before Minmus orbit (6deg) crossing
+off by ~ +1 degree
+
+-----------------------------------------------------------------------------------------------------
+
+3 minutes/degrees before Minmus orbit (6deg) crossing
+off by ~ -0.05 degrees
+
+2.1 minutes/degrees before 30deg crossing
+off by ~ -0.01 degrees
+
+2 minutes/degrees before 45deg crossing
+off by ~ -0.01 degrees
+
+1.9 minutes/degrees before polar orbit (90deg) crossing
+off by ~ -0.02 degrees
+
+1.8 minutes/degrees before 135deg crossing
+off by ~ -0.02 degrees
+
+1.7 minutes/degrees before 150deg crossing
+off by ~ -0.02 degrees
+
+1 minutes/degrees before 174deg crossing
+off by ~ -0.1 degrees
+
+
+=====================================================================================================
+
+
+6.8 minutes to space
+
+1.9 minutes/degrees before polar orbit (90deg) crossing
+off by ~  degrees

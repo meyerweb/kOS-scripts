@@ -1,0 +1,25 @@
+hvacengi wrote:
+
+The iterative nature of KSP means that it will still be slightly off, but I regularly land around 1.5m/s with this throttle function:
+
+function getThrottleForHeightVf
+{
+	parameter vel, acc, g, h, velFinal.
+	// vel is the current vertical velocity
+	// acc is the current available vertical acceleration based on current pitch
+	// g is the local acceleration due to gravity
+	// h is the height, it is very important that this is calibrated to
+	// velFinal is the desired final velocity.
+	// account for the offset of the bottom of the vessel from the CoM
+	// negative values of tgtacc mean accelerating towards the body (down),
+	// positive values mean accelerating away from the body (up).
+	local tgtacc is 0.
+	local thrtl is 0.
+	set tgtacc to -1 * (velFinal ^ 2 - vel ^ 2) / 2 / max(h, 0.01).
+	set thrtl to (tgtacc + g) / max(acc, 0.01).
+	return thrtl.
+}
+
+
+
+[http://forum.kerbalspaceprogram.com/index.php?/topic/61827-11-kos-scriptable-autopilot-system-v0201-2016515/&page=168#comment-2605862]
