@@ -41,7 +41,7 @@ declare function readout {
 	parameter col is 0.
 
 	for line in output {
-		print line + "    " at (col,row).
+		print line + "     " at (col,row).
 		set row to row + 1.
 	}
 }
